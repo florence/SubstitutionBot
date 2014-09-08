@@ -32,6 +32,7 @@ __location__ = os.path.realpath(
     os.path.join(os.getcwd(), os.path.dirname(__file__)))
 
 substitutions = {
+    "force": "horse",
     "witnesses": "these dudes I know",
     "witness": "this dude I know",
     "allegedly": "kinda probably",
